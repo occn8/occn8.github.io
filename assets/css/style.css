@@ -828,14 +828,14 @@ section {
 
 
 #sectionscroll a {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 #sectionscroll a span {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
+  left: 60%;
+  width: 18px;
+  height: 18px;
   margin-left: -12px;
   border-left: 3px solid #0c343d;
   border-bottom: 3px solid #0c343d;
