@@ -226,8 +226,9 @@ h6 {
   top: 10px;
   z-index: 9998;
   border: 0;
-  background: none;
-  font-size: 28px;
+  background: rgba(255, 255, 255, 0.955);
+  font-size: 30px;
+  font-weight: bold;
   transition: all 0.4s;
   outline: none !important;
   line-height: 0;
@@ -237,7 +238,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #0c343d;
 }
 
 .mobile-nav-active {
@@ -807,6 +808,11 @@ section {
   font-size: 13px;
 }
 
+@media screen and (max-width: 768px) {
+  #sectionscroll a {
+    left: 90%;
+  } 
+}
 .writing a {
   position: absolute;
   bottom: 30px;
@@ -871,4 +877,3 @@ section {
     opacity: 0;
   }
 }
-
