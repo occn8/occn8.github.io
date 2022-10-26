@@ -422,6 +422,43 @@ section {
 }
 
 /* ################################# */
+.languages .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.languages .progress .lang {
+  padding: 10px 0;
+  margin: 0;
+  /* text-transform: uppercase; */
+  display: block;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.languages .progress .lang .val {
+  float: right;
+  font-style: normal;
+}
+
+.languages .progress-bar-wrap {
+  background: #f2f3f5;
+  border-radius: 25px;
+}
+
+.languages .progress-bar {
+  width: 1px;
+  height: 10px;
+  border-radius: 25px;
+  padding: 6px;
+  transition: 0.4s;
+  background-color: #0c343d;
+}
+
+/* ################################# */
 .skills .progress {
   height: 60px;
   display: block;
