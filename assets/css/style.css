@@ -442,7 +442,9 @@ section {
 }
 
 /* ################################# */
-
+.progressbold{
+  font-size: 15px;
+}
 .languages .progress {
   height: 60px;
   display: block;
@@ -616,7 +618,8 @@ section {
   height: 80%;
   border-radius: 10px;
   left: -9px;
-  top: 20;padding-top: 20px;
+  top: 20;
+  padding-top: 20px;
   background: #fff;
   border: 2px solid #0c343d;
 }
