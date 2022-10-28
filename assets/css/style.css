@@ -350,7 +350,7 @@ h6 {
 }
 /* ################################# */
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -406,6 +406,9 @@ section {
 }
 
 /* ################################# */
+#about{
+  margin-top: 40px;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -477,6 +480,9 @@ section {
 }
 
 /* ################################# */
+#skills{
+  margin-top: 40px;
+}
 .skills .progress {
   height: 60px;
   display: block;
